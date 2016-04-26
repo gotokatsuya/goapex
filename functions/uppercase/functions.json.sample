@@ -1,0 +1,6 @@
+{
+  "vpc": {
+  	"securityGroups": ["hoge"],
+  	"subnets": ["hoge","hoge"]
+  }
+}

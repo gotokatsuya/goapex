@@ -1,0 +1,18 @@
+{
+  "name": "goapex",
+  "description": "Sample Go project using apex",
+  "runtime": "golang",
+  "memory": 128,
+  "timeout": 180,
+  "role": "hoge",
+  "defaultEnvironment": "dev",
+  "environment": {
+    "db_name":"hoge",
+    "db_host": "hoge",
+    "db_port": "hoge",
+    "db_user": "hoge",
+    "db_password": "hoge"
+  },
+  "nameTemplate": "{{.Project.Name}}_{{.Function.Name}}",
+  "retainedVersions": 10
+}
